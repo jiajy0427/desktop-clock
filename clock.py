@@ -25,11 +25,11 @@ timeframe.grid(row=0,column=0)
 
 tkintertime = StringVar()
 timelabel = Label(timeframe, textvariable=tkintertime, fg="white", bg="gray99", font=("Ink Free", 50))
-timelabel.place(y=screen_height/2 - 350, x=screen_width/2, anchor="center")
+timelabel.place(y=screen_height/2 - 300, x=screen_width/2, anchor="center")
 
 tkinterdate = StringVar()
 datelabel = Label(timeframe, textvariable=tkinterdate, fg="white", bg="gray99", font=("Ink Free", 15))
-datelabel.place(y=screen_height/2 - 300, x=screen_width/2, anchor="center")
+datelabel.place(y=screen_height/2 - 250, x=screen_width/2, anchor="center")
 
 
 while running:
